@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petasia 리포트앱 | 대만-한국 반려동물 상품 의사결정</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Petasia 리포트앱</h1>
+      <p>대만·한국 반려동물 시장 기반 상품/업체 선택 의사결정 도구</p>
+    </header>
+
+    <main class="container">
+      <section class="panel market-summary">
+        <h2>시장 분석 요약</h2>
+        <div class="grid-2">
+          <article>
+            <h3>대만 시장</h3>
+            <ul>
+              <li>도시권 중심의 소형견/실내묘 비중이 높아 기능성·위생 카테고리 수요가 큼</li>
+              <li>프리미엄/자연주의 사료·간식, 피부·치아·장건강 보조 카테고리 성장세</li>
+              <li>가격 민감층도 존재해 중가 라인업 + 체험팩 전략이 유효</li>
+            </ul>
+          </article>
+          <article>
+            <h3>한국 시장</h3>
+            <ul>
+              <li>브랜드·후기·성분 투명성 중심 구매가 강함</li>
+              <li>프리미엄(기능성/원료 강조), 중가(가성비), 저가(소모품)로 세분화 뚜렷</li>
+              <li>이커머스 중심 경쟁 심화: 상세페이지/리뷰/재구매율이 핵심</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel filters">
+        <h2>필터 & 체크리스트</h2>
+        <div class="filter-row">
+          <label>시장
+            <select id="marketFilter">
+              <option value="all">전체</option>
+              <option value="TW">대만 우선</option>
+              <option value="KR">한국 우선</option>
+              <option value="BOTH">양시장 공통</option>
+            </select>
+          </label>
+
+          <label>가격대
+            <select id="tierFilter">
+              <option value="all">전체</option>
+              <option value="Premium">프리미엄</option>
+              <option value="Mid">중가</option>
+              <option value="Budget">저가</option>
+            </select>
+          </label>
+
+          <label>카테고리
+            <select id="categoryFilter">
+              <option value="all">전체</option>
+            </select>
+          </label>
+
+          <label>검색
+            <input id="searchInput" type="text" placeholder="업체명/상품명 검색" />
+          </label>
+        </div>
+
+        <div class="checklist">
+          <h3>수출/판매 의사결정 체크리스트</h3>
+          <label><input type="checkbox" class="gate" value="cert" /> 성분/인증(원산지, 시험성적, 제조정보) 확인</label>
+          <label><input type="checkbox" class="gate" value="logistics" /> 물류/리드타임/반품 프로세스 확인</label>
+          <label><input type="checkbox" class="gate" value="margin" /> 관세/수수료 반영 후 목표 마진 달성</label>
+          <label><input type="checkbox" class="gate" value="demand" /> 대만 현지 키워드 수요/경쟁 검증</label>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>업체/상품 후보 (100)</h2>
+        <div class="meta" id="meta"></div>
+        <div id="cards" class="cards"></div>
+      </section>
+    </main>
+
+    <template id="cardTemplate">
+      <article class="card">
+        <div class="card-head">
+          <h3 class="vendor"></h3>
+          <span class="tier"></span>
+        </div>
+        <p class="product"></p>
+        <p class="tags"></p>
+        <div class="row">
+          <span class="platform"></span>
+          <span class="market"></span>
+        </div>
+        <div class="score-row">
+          <label>점수(1~5): <input class="score" type="number" min="1" max="5" /></label>
+          <label><input class="pick" type="checkbox" /> 후보 선택</label>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
