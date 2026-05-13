@@ -1,0 +1,902 @@
+[
+  {
+    "id": "V001",
+    "vendor": "국내업체001",
+    "product": "사료 상품 라인 001",
+    "category": "사료",
+    "tier": "Premium",
+    "platform": "쿠팡",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V002",
+    "vendor": "국내업체002",
+    "product": "간식 상품 라인 002",
+    "category": "간식",
+    "tier": "Mid",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V003",
+    "vendor": "국내업체003",
+    "product": "영양제 상품 라인 003",
+    "category": "영양제",
+    "tier": "Budget",
+    "platform": "11번가",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V004",
+    "vendor": "국내업체004",
+    "product": "배변용품 상품 라인 004",
+    "category": "배변용품",
+    "tier": "Premium",
+    "platform": "G마켓",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V005",
+    "vendor": "국내업체005",
+    "product": "미용/위생 상품 라인 005",
+    "category": "미용/위생",
+    "tier": "Mid",
+    "platform": "옥션",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V006",
+    "vendor": "국내업체006",
+    "product": "장난감 상품 라인 006",
+    "category": "장난감",
+    "tier": "Budget",
+    "platform": "SSG.COM",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V007",
+    "vendor": "국내업체007",
+    "product": "하네스/리드 상품 라인 007",
+    "category": "하네스/리드",
+    "tier": "Premium",
+    "platform": "오늘의집",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V008",
+    "vendor": "국내업체008",
+    "product": "이동장/가방 상품 라인 008",
+    "category": "이동장/가방",
+    "tier": "Mid",
+    "platform": "인터파크",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V009",
+    "vendor": "국내업체009",
+    "product": "급수/급식 상품 라인 009",
+    "category": "급수/급식",
+    "tier": "Budget",
+    "platform": "쿠팡",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V010",
+    "vendor": "국내업체010",
+    "product": "캣타워/스크래처 상품 라인 010",
+    "category": "캣타워/스크래처",
+    "tier": "Premium",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V011",
+    "vendor": "국내업체011",
+    "product": "사료 상품 라인 011",
+    "category": "사료",
+    "tier": "Mid",
+    "platform": "11번가",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V012",
+    "vendor": "국내업체012",
+    "product": "간식 상품 라인 012",
+    "category": "간식",
+    "tier": "Budget",
+    "platform": "G마켓",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V013",
+    "vendor": "국내업체013",
+    "product": "영양제 상품 라인 013",
+    "category": "영양제",
+    "tier": "Premium",
+    "platform": "옥션",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V014",
+    "vendor": "국내업체014",
+    "product": "배변용품 상품 라인 014",
+    "category": "배변용품",
+    "tier": "Mid",
+    "platform": "SSG.COM",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V015",
+    "vendor": "국내업체015",
+    "product": "미용/위생 상품 라인 015",
+    "category": "미용/위생",
+    "tier": "Budget",
+    "platform": "오늘의집",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V016",
+    "vendor": "국내업체016",
+    "product": "장난감 상품 라인 016",
+    "category": "장난감",
+    "tier": "Premium",
+    "platform": "인터파크",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V017",
+    "vendor": "국내업체017",
+    "product": "하네스/리드 상품 라인 017",
+    "category": "하네스/리드",
+    "tier": "Mid",
+    "platform": "쿠팡",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V018",
+    "vendor": "국내업체018",
+    "product": "이동장/가방 상품 라인 018",
+    "category": "이동장/가방",
+    "tier": "Budget",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V019",
+    "vendor": "국내업체019",
+    "product": "급수/급식 상품 라인 019",
+    "category": "급수/급식",
+    "tier": "Premium",
+    "platform": "11번가",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V020",
+    "vendor": "국내업체020",
+    "product": "캣타워/스크래처 상품 라인 020",
+    "category": "캣타워/스크래처",
+    "tier": "Mid",
+    "platform": "G마켓",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V021",
+    "vendor": "국내업체021",
+    "product": "사료 상품 라인 021",
+    "category": "사료",
+    "tier": "Budget",
+    "platform": "옥션",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V022",
+    "vendor": "국내업체022",
+    "product": "간식 상품 라인 022",
+    "category": "간식",
+    "tier": "Premium",
+    "platform": "SSG.COM",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V023",
+    "vendor": "국내업체023",
+    "product": "영양제 상품 라인 023",
+    "category": "영양제",
+    "tier": "Mid",
+    "platform": "오늘의집",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V024",
+    "vendor": "국내업체024",
+    "product": "배변용품 상품 라인 024",
+    "category": "배변용품",
+    "tier": "Budget",
+    "platform": "인터파크",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V025",
+    "vendor": "국내업체025",
+    "product": "미용/위생 상품 라인 025",
+    "category": "미용/위생",
+    "tier": "Premium",
+    "platform": "쿠팡",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V026",
+    "vendor": "국내업체026",
+    "product": "장난감 상품 라인 026",
+    "category": "장난감",
+    "tier": "Mid",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V027",
+    "vendor": "국내업체027",
+    "product": "하네스/리드 상품 라인 027",
+    "category": "하네스/리드",
+    "tier": "Budget",
+    "platform": "11번가",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V028",
+    "vendor": "국내업체028",
+    "product": "이동장/가방 상품 라인 028",
+    "category": "이동장/가방",
+    "tier": "Premium",
+    "platform": "G마켓",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V029",
+    "vendor": "국내업체029",
+    "product": "급수/급식 상품 라인 029",
+    "category": "급수/급식",
+    "tier": "Mid",
+    "platform": "옥션",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V030",
+    "vendor": "국내업체030",
+    "product": "캣타워/스크래처 상품 라인 030",
+    "category": "캣타워/스크래처",
+    "tier": "Budget",
+    "platform": "SSG.COM",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V031",
+    "vendor": "국내업체031",
+    "product": "사료 상품 라인 031",
+    "category": "사료",
+    "tier": "Premium",
+    "platform": "오늘의집",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V032",
+    "vendor": "국내업체032",
+    "product": "간식 상품 라인 032",
+    "category": "간식",
+    "tier": "Mid",
+    "platform": "인터파크",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V033",
+    "vendor": "국내업체033",
+    "product": "영양제 상품 라인 033",
+    "category": "영양제",
+    "tier": "Budget",
+    "platform": "쿠팡",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V034",
+    "vendor": "국내업체034",
+    "product": "배변용품 상품 라인 034",
+    "category": "배변용품",
+    "tier": "Premium",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V035",
+    "vendor": "국내업체035",
+    "product": "미용/위생 상품 라인 035",
+    "category": "미용/위생",
+    "tier": "Mid",
+    "platform": "11번가",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V036",
+    "vendor": "국내업체036",
+    "product": "장난감 상품 라인 036",
+    "category": "장난감",
+    "tier": "Budget",
+    "platform": "G마켓",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V037",
+    "vendor": "국내업체037",
+    "product": "하네스/리드 상품 라인 037",
+    "category": "하네스/리드",
+    "tier": "Premium",
+    "platform": "옥션",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V038",
+    "vendor": "국내업체038",
+    "product": "이동장/가방 상품 라인 038",
+    "category": "이동장/가방",
+    "tier": "Mid",
+    "platform": "SSG.COM",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V039",
+    "vendor": "국내업체039",
+    "product": "급수/급식 상품 라인 039",
+    "category": "급수/급식",
+    "tier": "Budget",
+    "platform": "오늘의집",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V040",
+    "vendor": "국내업체040",
+    "product": "캣타워/스크래처 상품 라인 040",
+    "category": "캣타워/스크래처",
+    "tier": "Premium",
+    "platform": "인터파크",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V041",
+    "vendor": "국내업체041",
+    "product": "사료 상품 라인 041",
+    "category": "사료",
+    "tier": "Mid",
+    "platform": "쿠팡",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V042",
+    "vendor": "국내업체042",
+    "product": "간식 상품 라인 042",
+    "category": "간식",
+    "tier": "Budget",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V043",
+    "vendor": "국내업체043",
+    "product": "영양제 상품 라인 043",
+    "category": "영양제",
+    "tier": "Premium",
+    "platform": "11번가",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V044",
+    "vendor": "국내업체044",
+    "product": "배변용품 상품 라인 044",
+    "category": "배변용품",
+    "tier": "Mid",
+    "platform": "G마켓",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V045",
+    "vendor": "국내업체045",
+    "product": "미용/위생 상품 라인 045",
+    "category": "미용/위생",
+    "tier": "Budget",
+    "platform": "옥션",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V046",
+    "vendor": "국내업체046",
+    "product": "장난감 상품 라인 046",
+    "category": "장난감",
+    "tier": "Premium",
+    "platform": "SSG.COM",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V047",
+    "vendor": "국내업체047",
+    "product": "하네스/리드 상품 라인 047",
+    "category": "하네스/리드",
+    "tier": "Mid",
+    "platform": "오늘의집",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V048",
+    "vendor": "국내업체048",
+    "product": "이동장/가방 상품 라인 048",
+    "category": "이동장/가방",
+    "tier": "Budget",
+    "platform": "인터파크",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V049",
+    "vendor": "국내업체049",
+    "product": "급수/급식 상품 라인 049",
+    "category": "급수/급식",
+    "tier": "Premium",
+    "platform": "쿠팡",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V050",
+    "vendor": "국내업체050",
+    "product": "캣타워/스크래처 상품 라인 050",
+    "category": "캣타워/스크래처",
+    "tier": "Mid",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V051",
+    "vendor": "국내업체051",
+    "product": "사료 상품 라인 051",
+    "category": "사료",
+    "tier": "Budget",
+    "platform": "11번가",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V052",
+    "vendor": "국내업체052",
+    "product": "간식 상품 라인 052",
+    "category": "간식",
+    "tier": "Premium",
+    "platform": "G마켓",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V053",
+    "vendor": "국내업체053",
+    "product": "영양제 상품 라인 053",
+    "category": "영양제",
+    "tier": "Mid",
+    "platform": "옥션",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V054",
+    "vendor": "국내업체054",
+    "product": "배변용품 상품 라인 054",
+    "category": "배변용품",
+    "tier": "Budget",
+    "platform": "SSG.COM",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V055",
+    "vendor": "국내업체055",
+    "product": "미용/위생 상품 라인 055",
+    "category": "미용/위생",
+    "tier": "Premium",
+    "platform": "오늘의집",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V056",
+    "vendor": "국내업체056",
+    "product": "장난감 상품 라인 056",
+    "category": "장난감",
+    "tier": "Mid",
+    "platform": "인터파크",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V057",
+    "vendor": "국내업체057",
+    "product": "하네스/리드 상품 라인 057",
+    "category": "하네스/리드",
+    "tier": "Budget",
+    "platform": "쿠팡",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V058",
+    "vendor": "국내업체058",
+    "product": "이동장/가방 상품 라인 058",
+    "category": "이동장/가방",
+    "tier": "Premium",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V059",
+    "vendor": "국내업체059",
+    "product": "급수/급식 상품 라인 059",
+    "category": "급수/급식",
+    "tier": "Mid",
+    "platform": "11번가",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V060",
+    "vendor": "국내업체060",
+    "product": "캣타워/스크래처 상품 라인 060",
+    "category": "캣타워/스크래처",
+    "tier": "Budget",
+    "platform": "G마켓",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V061",
+    "vendor": "국내업체061",
+    "product": "사료 상품 라인 061",
+    "category": "사료",
+    "tier": "Premium",
+    "platform": "옥션",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V062",
+    "vendor": "국내업체062",
+    "product": "간식 상품 라인 062",
+    "category": "간식",
+    "tier": "Mid",
+    "platform": "SSG.COM",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V063",
+    "vendor": "국내업체063",
+    "product": "영양제 상품 라인 063",
+    "category": "영양제",
+    "tier": "Budget",
+    "platform": "오늘의집",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V064",
+    "vendor": "국내업체064",
+    "product": "배변용품 상품 라인 064",
+    "category": "배변용품",
+    "tier": "Premium",
+    "platform": "인터파크",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V065",
+    "vendor": "국내업체065",
+    "product": "미용/위생 상품 라인 065",
+    "category": "미용/위생",
+    "tier": "Mid",
+    "platform": "쿠팡",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V066",
+    "vendor": "국내업체066",
+    "product": "장난감 상품 라인 066",
+    "category": "장난감",
+    "tier": "Budget",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V067",
+    "vendor": "국내업체067",
+    "product": "하네스/리드 상품 라인 067",
+    "category": "하네스/리드",
+    "tier": "Premium",
+    "platform": "11번가",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V068",
+    "vendor": "국내업체068",
+    "product": "이동장/가방 상품 라인 068",
+    "category": "이동장/가방",
+    "tier": "Mid",
+    "platform": "G마켓",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V069",
+    "vendor": "국내업체069",
+    "product": "급수/급식 상품 라인 069",
+    "category": "급수/급식",
+    "tier": "Budget",
+    "platform": "옥션",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V070",
+    "vendor": "국내업체070",
+    "product": "캣타워/스크래처 상품 라인 070",
+    "category": "캣타워/스크래처",
+    "tier": "Premium",
+    "platform": "SSG.COM",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V071",
+    "vendor": "국내업체071",
+    "product": "사료 상품 라인 071",
+    "category": "사료",
+    "tier": "Mid",
+    "platform": "오늘의집",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V072",
+    "vendor": "국내업체072",
+    "product": "간식 상품 라인 072",
+    "category": "간식",
+    "tier": "Budget",
+    "platform": "인터파크",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V073",
+    "vendor": "국내업체073",
+    "product": "영양제 상품 라인 073",
+    "category": "영양제",
+    "tier": "Premium",
+    "platform": "쿠팡",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V074",
+    "vendor": "국내업체074",
+    "product": "배변용품 상품 라인 074",
+    "category": "배변용품",
+    "tier": "Mid",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V075",
+    "vendor": "국내업체075",
+    "product": "미용/위생 상품 라인 075",
+    "category": "미용/위생",
+    "tier": "Budget",
+    "platform": "11번가",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V076",
+    "vendor": "국내업체076",
+    "product": "장난감 상품 라인 076",
+    "category": "장난감",
+    "tier": "Premium",
+    "platform": "G마켓",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V077",
+    "vendor": "국내업체077",
+    "product": "하네스/리드 상품 라인 077",
+    "category": "하네스/리드",
+    "tier": "Mid",
+    "platform": "옥션",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V078",
+    "vendor": "국내업체078",
+    "product": "이동장/가방 상품 라인 078",
+    "category": "이동장/가방",
+    "tier": "Budget",
+    "platform": "SSG.COM",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V079",
+    "vendor": "국내업체079",
+    "product": "급수/급식 상품 라인 079",
+    "category": "급수/급식",
+    "tier": "Premium",
+    "platform": "오늘의집",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V080",
+    "vendor": "국내업체080",
+    "product": "캣타워/스크래처 상품 라인 080",
+    "category": "캣타워/스크래처",
+    "tier": "Mid",
+    "platform": "인터파크",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V081",
+    "vendor": "국내업체081",
+    "product": "사료 상품 라인 081",
+    "category": "사료",
+    "tier": "Budget",
+    "platform": "쿠팡",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V082",
+    "vendor": "국내업체082",
+    "product": "간식 상품 라인 082",
+    "category": "간식",
+    "tier": "Premium",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V083",
+    "vendor": "국내업체083",
+    "product": "영양제 상품 라인 083",
+    "category": "영양제",
+    "tier": "Mid",
+    "platform": "11번가",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V084",
+    "vendor": "국내업체084",
+    "product": "배변용품 상품 라인 084",
+    "category": "배변용품",
+    "tier": "Budget",
+    "platform": "G마켓",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V085",
+    "vendor": "국내업체085",
+    "product": "미용/위생 상품 라인 085",
+    "category": "미용/위생",
+    "tier": "Premium",
+    "platform": "옥션",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V086",
+    "vendor": "국내업체086",
+    "product": "장난감 상품 라인 086",
+    "category": "장난감",
+    "tier": "Mid",
+    "platform": "SSG.COM",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V087",
+    "vendor": "국내업체087",
+    "product": "하네스/리드 상품 라인 087",
+    "category": "하네스/리드",
+    "tier": "Budget",
+    "platform": "오늘의집",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V088",
+    "vendor": "국내업체088",
+    "product": "이동장/가방 상품 라인 088",
+    "category": "이동장/가방",
+    "tier": "Premium",
+    "platform": "인터파크",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V089",
+    "vendor": "국내업체089",
+    "product": "급수/급식 상품 라인 089",
+    "category": "급수/급식",
+    "tier": "Mid",
+    "platform": "쿠팡",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V090",
+    "vendor": "국내업체090",
+    "product": "캣타워/스크래처 상품 라인 090",
+    "category": "캣타워/스크래처",
+    "tier": "Budget",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V091",
+    "vendor": "국내업체091",
+    "product": "사료 상품 라인 091",
+    "category": "사료",
+    "tier": "Premium",
+    "platform": "11번가",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V092",
+    "vendor": "국내업체092",
+    "product": "간식 상품 라인 092",
+    "category": "간식",
+    "tier": "Mid",
+    "platform": "G마켓",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V093",
+    "vendor": "국내업체093",
+    "product": "영양제 상품 라인 093",
+    "category": "영양제",
+    "tier": "Budget",
+    "platform": "옥션",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V094",
+    "vendor": "국내업체094",
+    "product": "배변용품 상품 라인 094",
+    "category": "배변용품",
+    "tier": "Premium",
+    "platform": "SSG.COM",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V095",
+    "vendor": "국내업체095",
+    "product": "미용/위생 상품 라인 095",
+    "category": "미용/위생",
+    "tier": "Mid",
+    "platform": "오늘의집",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V096",
+    "vendor": "국내업체096",
+    "product": "장난감 상품 라인 096",
+    "category": "장난감",
+    "tier": "Budget",
+    "platform": "인터파크",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V097",
+    "vendor": "국내업체097",
+    "product": "하네스/리드 상품 라인 097",
+    "category": "하네스/리드",
+    "tier": "Premium",
+    "platform": "쿠팡",
+    "marketFocus": "TW"
+  },
+  {
+    "id": "V098",
+    "vendor": "국내업체098",
+    "product": "이동장/가방 상품 라인 098",
+    "category": "이동장/가방",
+    "tier": "Mid",
+    "platform": "네이버 스마트스토어",
+    "marketFocus": "KR"
+  },
+  {
+    "id": "V099",
+    "vendor": "국내업체099",
+    "product": "급수/급식 상품 라인 099",
+    "category": "급수/급식",
+    "tier": "Budget",
+    "platform": "11번가",
+    "marketFocus": "BOTH"
+  },
+  {
+    "id": "V100",
+    "vendor": "국내업체100",
+    "product": "캣타워/스크래처 상품 라인 100",
+    "category": "캣타워/스크래처",
+    "tier": "Premium",
+    "platform": "G마켓",
+    "marketFocus": "TW"
+  }
+]
