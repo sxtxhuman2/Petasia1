@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>시장 데이터</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<script src="layout.js"></script>
+<script>
+renderLayout('📊 실제 시장 데이터', `
+<div class='card'>
+<h3>시장 점유율</h3>
+<canvas id='marketChart'></canvas>
+</div>
+
+<div class='card' style='margin-top:20px;'>
+<h3>상품 필터</h3>
+<select>
+<option>전체</option>
+<option>프리미엄</option>
+<option>중가</option>
+<option>저가</option>
+</select>
+</div>
+
+<div class='card' style='margin-top:20px;'>
+<h3>CSV / Excel 업로드</h3>
+<input type='file' accept='.csv,.xlsx'>
+</div>
+
+<div class='card' style='margin-top:20px;'>
+<h3>대만 수입 규정</h3>
+<ul>
+<li>동물성 원료 검역 확인</li>
+<li>중문 라벨 필요</li>
+<li>수입 허가 인증 필요</li>
+</ul>
+</div>
+`)
+
+setTimeout(()=>{
+const ctx=document.getElementById('marketChart');
+new Chart(ctx,{
+ type:'bar',
+ data:{
+  labels:['프리미엄','중가','저가'],
+  datasets:[{
+   label:'시장 규모',
+   data:[45,35,20]
+  }]
+ }
+})
+},300)
+</script>
+</body>
+</html>
