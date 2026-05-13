@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "brand": "K-Pet Premium",
+    "category": "사료",
+    "market": "프리미엄",
+    "priceRange": "50000+",
+    "taiwanPotential": "높음"
+  },
+  {
+    "id": 2,
+    "brand": "Pet Clean Korea",
+    "category": "위생용품",
+    "market": "중가",
+    "priceRange": "20000-50000",
+    "taiwanPotential": "중간"
+  }
+]
