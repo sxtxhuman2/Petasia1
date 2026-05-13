@@ -1,1 +1,179 @@
-test
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Petasia Market Intelligence</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f9;
+      color: #222;
+    }
+    header {
+      background: #111827;
+      color: white;
+      padding: 24px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      min-height: 100vh;
+    }
+    aside {
+      background: white;
+      border-right: 1px solid #ddd;
+      padding: 20px;
+    }
+    aside h2 {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .menu button {
+      padding: 12px;
+      border: none;
+      background: #e5e7eb;
+      cursor: pointer;
+      border-radius: 8px;
+      text-align: left;
+    }
+    main {
+      padding: 24px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    .checklist label {
+      display: block;
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Petasia Market Intelligence Dashboard</h1>
+    <p>대만 반려동물 시장 진출을 위한 한국 제품 분석 및 리포트 플랫폼</p>
+  </header>
+
+  <div class="container">
+    <aside>
+      <h2>리포트 메뉴</h2>
+      <div class="menu">
+        <button>📊 시장 분석</button>
+        <button>🐶 반려동물 카테고리</button>
+        <button>🇰🇷 한국 브랜드</button>
+        <button>🇹🇼 대만 시장 조사</button>
+        <button>🛒 이커머스 데이터</button>
+        <button>✅ 체크리스트</button>
+        <button>📁 의사결정 리포트</button>
+      </div>
+    </aside>
+
+    <main>
+      <section class="grid">
+        <div class="card">
+          <h3>대만 시장 분류</h3>
+          <ul>
+            <li>프리미엄 브랜드 시장</li>
+            <li>중간 가격대 시장</li>
+            <li>저가/대량 소비 시장</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>한국 반려동물 상품 카테고리</h3>
+          <ul>
+            <li>사료 / 간식</li>
+            <li>의류 / 액세서리</li>
+            <li>헬스케어</li>
+            <li>자동 급식기</li>
+            <li>위생 / 배변용품</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>목표</h3>
+          <p>국내 이커머스 데이터를 기반으로 100개 이상의 공급업체와 상품을 분석하고 대만 진출 가능성을 평가합니다.</p>
+        </div>
+      </section>
+
+      <section class="card" style="margin-top:20px;">
+        <h2>샘플 상품 분석 테이블</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>브랜드</th>
+              <th>카테고리</th>
+              <th>가격대</th>
+              <th>시장 포지션</th>
+              <th>대만 진출 가능성</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>브랜드 A</td>
+              <td>프리미엄 사료</td>
+              <td>₩50,000+</td>
+              <td>프리미엄</td>
+              <td>높음</td>
+            </tr>
+            <tr>
+              <td>브랜드 B</td>
+              <td>자동 급식기</td>
+              <td>₩80,000</td>
+              <td>중간</td>
+              <td>중간</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card checklist" style="margin-top:20px;">
+        <h2>의사결정 체크리스트</h2>
+        <label><input type="checkbox"> 대만 수입 가능 여부 확인</label>
+        <label><input type="checkbox"> KC / FDA 인증 여부</label>
+        <label><input type="checkbox"> 마진율 분석 완료</label>
+        <label><input type="checkbox"> 경쟁 브랜드 조사 완료</label>
+        <label><input type="checkbox"> 물류비 계산 완료</label>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    Petasia Intelligence Platform · GitHub Pages Ready
+  </footer>
+</body>
+</html>
